@@ -1,0 +1,35 @@
+header{
+    width: 100%;
+    padding: 10px 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    color: #000;
+    font-weight: 600;
+    padding: 10px 15px;
+    border: 2px solid #000;
+    border-radius: 3rem;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.menu li a{
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 3rem;
+    background-color: #000;
+}

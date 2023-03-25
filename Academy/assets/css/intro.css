@@ -1,0 +1,69 @@
+.intro{
+    background-color: rgb(236, 236, 236);
+    padding: 3rem;
+    border-radius: 20px;
+    margin: 4rem auto;
+}
+
+.intro__part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.intro__text h1{
+    font-size: 70px;
+    color: var(--dark--gray);
+}
+
+.intro__info{
+    padding: 0 50px;
+}
+
+.intro__info h3{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    color: var(--dark--gray);
+}
+
+.intro__info p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: rgb(104, 104, 104);
+    padding-top: 10px;
+}
+.intro__info button{
+    margin: 1rem 0;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: var(--light--yellow);
+    font-size: 1rem;
+    border: none;
+    line-height: 1.2rem;
+    font-weight: 600;
+}
+
+.new{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color:rgb(236, 236, 236);
+    padding: 3rem;
+    margin: 4rem auto;
+    border-radius: 20px;
+}
+
+.new button{
+    font-size: 1rem;
+    width: 75px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(235, 197, 235);
+    color: rgb(202, 165, 202);
+    margin-left: 1.8rem;
+}
+
+.new a{
+    color: rgb(209, 171, 209);
+}
+
+
+

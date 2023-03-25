@@ -1,0 +1,62 @@
+
+
+.gallery__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "cardleft  cardright"
+                         "cardleft2 cardright";
+    grid-gap: 20px;
+    width: 100%;
+    padding: 20px;
+    height: 400px;
+}
+
+.card{
+    background-color: silver;
+    border: 2px solid black;
+}
+
+.card:nth-child(1){
+  grid-area: cardleft;
+}
+
+.card:nth-child(2){
+    grid-area: cardright;
+}
+
+.card:nth-child(3){
+    grid-area: cardleft2;
+}
+
+
+/* new code */
+
+.grid__cards{
+    display: grid;
+    grid-template-columns: 500px 1fr 1fr;
+    grid-template-areas: "left a b"
+                         "left c d";
+   height: 400px;
+   grid-gap: 20px;
+}
+
+.grid__item:nth-child(1){
+    grid-area: left;
+}
+.grid__item:nth-child(2){
+    grid-area: a;
+}
+.grid__item:nth-child(3){
+    grid-area: b;
+}
+.grid__item:nth-child(4){
+    grid-area: c;
+}
+.grid__item:nth-child(5){
+    grid-area: d;
+}
+
+
+.grid__item{
+    background-color: silver;
+}
